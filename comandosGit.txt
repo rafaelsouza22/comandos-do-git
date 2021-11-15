@@ -1,11 +1,15 @@
 GIT
 areas do GIT
 1° Working Directory/Diretorio de trabalho {
-    Diretorio de trabalho onde sera possivel criar, editar e remover
+    Diretorio de trabalho onde é manipulado os arquivos 
+    exeplo(criar, editar e remover) nos EDITORES DE CODIGOS
+    git add . OU git add nomeDoArquivo.extenção
+    para mandar para a Staging Area
 }
 2° Staging Area {
     É uma SALA DE ESPERA onde os arquivos manipulados esperão para ser tranferido
-    para o repositorio final com o commit  
+    para o repositorio final, Usando o comando:
+    git commit -m "TITULO DA MODIFICAÇÃO"  
 }
 3° Repository {
     O repositorio em si onde guarda rodos os projetos
@@ -21,11 +25,12 @@ git config --global user.name "Rafael Souza"
 git init   => inicia um repositorio git na Pasta/Projeto
 git status => mostra todas as pendencias dos arquivos para a sincronização com o repositorio
 git add .  => Move os arquivo da Working directory para a Staging Area
-git commit -m "Meu Projeto" => 
+git commit -m "Meu Projeto" => Move os arquivos da Staging Area para o Repository 
+git log => mostra o HISTORICO de modificações feitas com seu identificador
 git config --list => lista todas as configurações
 
 
-git log => mostra a linha do tempo de modificações feitas
+
 git revert => reverte qualquer alteração feira usando a linha do tempo do log
 
 
