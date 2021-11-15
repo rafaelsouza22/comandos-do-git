@@ -1,1 +1,11 @@
 Hello world :D
+
+comando do php para limpar textos recebidos do usuario
+
+ strip_tags($texto); 
+
+
+
+
+
+ 

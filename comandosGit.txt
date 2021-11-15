@@ -1,0 +1,32 @@
+GIT
+areas do GIT
+1° Working Directory/Diretorio de trabalho {
+    Diretorio de trabalho onde sera possivel criar, editar e remover
+}
+2° Staging Area {
+    É uma SALA DE ESPERA onde os arquivos manipulados esperão para ser tranferido
+    para o repositorio final com o commit  
+}
+3° Repository {
+    O repositorio em si onde guarda rodos os projetos
+}
+
+
+=== Configurando o usuario, email e nome do author git ===
+git config --global user.email "rs6499533@gmail.com"
+git config --global user.name "Rafael Souza"
+
+
+=== Comandos do git ===
+git init   => inicia um repositorio git na Pasta/Projeto
+git status => mostra todas as pendencias dos arquivos para a sincronização com o repositorio
+git add .  => Move os arquivo da Working directory para a Staging Area
+git commit -m "Meu Projeto" => 
+git config --list => lista todas as configurações
+
+
+git log => mostra a linha do tempo de modificações feitas
+git revert => reverte qualquer alteração feira usando a linha do tempo do log
+
+
+
