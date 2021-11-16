@@ -28,7 +28,7 @@ git add .  => Move os arquivo da Working directory para a Staging Area
 git commit -m "Meu Projeto" => Move os arquivos da Staging Area para o Repository 
 git log => mostra o HISTORICO de modificações feitas com seu identificador
 git config --list => lista todas as configurações
-
+git checkout -- ArquivoApagado.extenção => recupera o arquivo apagado  
 
 
 git revert => reverte qualquer alteração feira usando a linha do tempo do log
