@@ -30,18 +30,13 @@ git log => mostra o HISTORICO de modificações feitas com seu identificador
 git config --list => lista todas as configurações
 git checkout -- ArquivoApagado.extenção OU chave/Identificador do git log => recupera o 
     arquivo apagado ou volta para um estado anterior.  
-git revert => reverte qualquer alteração feira usando a linha do tempo do log.
+git resert => reverte qualquer alteração feira usando a linha do tempo do log, um commit por vez.
 
 
 === Branch ===
 git branch => mostra todas as branch do repositorio/projeto
 git checkout -b NomeDaBranch => cria um branch do repositorio/projeto
-
-
-
-
-
-git revert => reverte qualquer alteração feira usando a linha do tempo do log
+git branch -d NoemDaBranch => Deleta uma branch 
 git checkout NomeDaBranch => navega entre as branchs 
 
 
