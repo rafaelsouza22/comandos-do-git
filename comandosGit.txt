@@ -12,7 +12,7 @@ areas do GIT
     git commit -m "TITULO DA MODIFICAÇÃO"  
 }
 3° Repository {
-    O repositorio em si onde guarda rodos os projetos
+    O repositorio em si onde guarda Todos os Projetos
 }
 
 
@@ -28,10 +28,21 @@ git add .  => Move os arquivo da Working directory para a Staging Area
 git commit -m "Meu Projeto" => Move os arquivos da Staging Area para o Repository 
 git log => mostra o HISTORICO de modificações feitas com seu identificador
 git config --list => lista todas as configurações
-git checkout -- ArquivoApagado.extenção => recupera o arquivo apagado  
+git checkout -- ArquivoApagado.extenção OU chave/Identificador do git log => recupera o 
+    arquivo apagado ou volta para um estado anterior.  
+git revert => reverte qualquer alteração feira usando a linha do tempo do log.
+
+
+=== Branch ===
+git branch => mostra todas as branch do repositorio/projeto
+git checkout -b NomeDaBranch => cria um branch do repositorio/projeto
+
+
+
 
 
 git revert => reverte qualquer alteração feira usando a linha do tempo do log
 git checkout NomeDaBranch => navega entre as branchs 
+
 
 
