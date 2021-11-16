@@ -32,6 +32,6 @@ git checkout -- ArquivoApagado.extenção => recupera o arquivo apagado
 
 
 git revert => reverte qualquer alteração feira usando a linha do tempo do log
-
+git checkout NomeDaBranch => navega entre as branchs 
 
 
