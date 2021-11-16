@@ -42,5 +42,7 @@ git checkout -b NomeDaBranch => cria um branch do repositorio/projeto
 git branch -d NoemDaBranch => Deleta uma branch 
 git checkout NomeDaBranch => navega entre as branchs 
 
+git reset --soft HEAD~1
+git reset --hard HEAD~1
 
 teste do revert
