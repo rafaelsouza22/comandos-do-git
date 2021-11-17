@@ -48,10 +48,16 @@ git reset --hard HEAD~1 => vai remover o commit e vai remover os arquivos manipu
 === .gitignore =========
 .gitignore é um arquivo sera responsavel por ignorar arquivos 
 
+=== gitHub - repositorio remoto ====
+git remote add origin https://github.com/rafaelsouza22/comandos-do-git.git => faz a conexão com o repositorio do github
+git remote -v => mostra todos os repositorios remotos conectados
+git push -u origin --all => ENVIA todos os arquivos para o github, 
+    O -u é usado uma vez que sobe o repositorio
 
+git pull origin master => BAIXA todos os arquivos do projeto master    
 
-
-
+git clone URL => faz um clone do repositorio do gitHub EXEMPLO:
+	git clone https://github.com/rafaelsouza22/meuslivros.ga.git
 
 
 
