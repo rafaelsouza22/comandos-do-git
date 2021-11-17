@@ -42,7 +42,19 @@ git checkout -b NomeDaBranch => cria um branch do repositorio/projeto
 git branch -d NoemDaBranch => Deleta uma branch 
 git checkout NomeDaBranch => navega entre as branchs 
 
-git reset --soft HEAD~1
-git reset --hard HEAD~1
+git reset --soft HEAD~1 => vai remover o commit, mais vai manter os arquivos manipulados/editados
+git reset --hard HEAD~1 => vai remover o commit e vai remover os arquivos manipulados/editados
 
-teste do revert
+=== .gitignore =========
+.gitignore é um arquivo sera responsavel por ignorar arquivos 
+
+
+
+
+
+
+
+
+
+
+
