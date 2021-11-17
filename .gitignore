@@ -1,2 +1,4 @@
 .config
-upload/* 
+upload/*
+!upload/importante.txt 
+# *.php
