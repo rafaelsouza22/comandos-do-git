@@ -56,9 +56,9 @@ git push -u origin --all => ENVIA todos os arquivos para o github,
 
 git pull origin master => BAIXA todos os arquivos do projeto master    
 
-git clone URL => faz um clone do repositorio do gitHub EXEMPLO:
-	git clone https://github.com/rafaelsouza22/meuslivros.ga.git
-
+git clone URL => faz um clone do repositorio do gitHub 
+EXEMPLO: git clone https://github.com/rafaelsouza22/meuslivros.ga.git
+EXEMPLO: git clone https://github.com/rafaelsouza22/comandos-do-git.git
 
 
 
